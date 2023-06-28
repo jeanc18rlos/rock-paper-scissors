@@ -86,26 +86,26 @@ By following the [Atomic design Methodology]( https://bradfrost.com/blog/post/at
 ![image](./docs/ui-components-composition.drawio.svg)
 # Components Folder Structure
 
-src/
-├── components/
-│   ├── atoms/
-│   │   ├── Button/
-│   │   ├── Input/
-│   │   ├── Label/
-│   ├── molecules/
-│   │   ├── Form/
-│   │   ├── Card/
-│   ├── organisms/
-│   │   ├── Header/
-│   │   ├── Layout/
-│   │   ├── BettingPosition/
-│   │   ├── Stats/
-│   │   ├── BettingForm/
-│   │   ├── BettingLogger/
-│   ├── templates/
-│   │   ├── BetPageTemplate/
-│   ├── pages/
-│   │   ├── RockPaperScissorsBetPage/
+    src/
+    ├── components/
+    │   ├── atoms/
+    │   │   ├── Button/
+    │   │   ├── Input/
+    │   │   ├── Label/
+    │   ├── molecules/
+    │   │   ├── Form/
+    │   │   ├── Card/
+    │   ├── organisms/
+    │   │   ├── Header/
+    │   │   ├── Layout/
+    │   │   ├── BettingPosition/
+    │   │   ├── Stats/
+    │   │   ├── BettingForm/
+    │   │   ├── BettingLogger/
+    │   ├── templates/
+    │   │   ├── BetPageTemplate/
+    │   ├── pages/
+    │   │   ├── RockPaperScissorsBetPage/
 
 # State Management
 
