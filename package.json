@@ -25,7 +25,8 @@
     "format": "prettier --write src/**/*.ts{,x}",
     "lint": "tsc --noEmit && eslint src/**/*.ts{,x}",
     "cypress": "cypress open",
-    "cypress:run": "cypress run"
+    "e2e": "cypress run"
+    
   },
   "eslintConfig": {
     "extends": [

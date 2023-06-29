@@ -39,6 +39,7 @@ This project is a web application that allows the user to bet on a game of rock 
     - [`yarn commit`](#yarn-commit)
     - [`yarn format`](#yarn-format)
     - [`yarn lint`](#yarn-lint)
+    - [`yarn e2e`](#yarn-e2e)
 # Methodologies
 
 - Atomic Design: https://bradfrost.com/blog/post/atomic-web-design/
@@ -136,7 +137,7 @@ Using ESLint, StyleLint and Prettier with Husky to enforce code quality and cons
 <b>Testing:</b> Ensure all dependencies are installed and correctly configured.
 <b>Done:</b> When the development environment is fully set up and functional.
 
-<b>Status</b>: To Do
+<b>Status</b>: Done
 
 ### Ticket 2: Create Atoms
 <b>Backlog:</b> Review the Atomic Design Methodology and understand the required atomic components.
@@ -262,3 +263,7 @@ Runs [Prettier](https://prettier.io/) to format your code.
 ### `yarn lint`
 
 Runs [ESLint](https://eslint.org/) to check your code for errors and warnings.
+
+### `yarn e2e`
+
+Runs [Cypress](https://www.cypress.io/) to run end-to-end tests.
