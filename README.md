@@ -28,8 +28,8 @@ This project is a web application that allows the user to bet on a game of rock 
     - [Ticket 4: Create Organisms](#ticket-4-create-organisms)
     - [Ticket 5: Create Templates](#ticket-5-create-templates)
     - [Ticket 6: Create Pages](#ticket-6-create-pages)
-    - [Ticket 7: Implement Redux Slices](#ticket-7-implement-redux-slices)
-    - [Ticket 8: Style Components with Tailwind CSS](#ticket-8-style-components-with-tailwind-css)
+    - [Ticket 7: Implement State Slices](#ticket-7-implement-state-slices)
+    - [Ticket 8: Style Components](#ticket-8-style-components)
     - [Ticket 9: Testing and Bug Fixes](#ticket-9-testing-and-bug-fixes)
 - [Getting Started](#getting-started)
   - [Available Scripts](#available-scripts)
@@ -44,20 +44,12 @@ This project is a web application that allows the user to bet on a game of rock 
 
 - Atomic Design: https://bradfrost.com/blog/post/atomic-web-design/
 - Test Driven Development: https://en.wikipedia.org/wiki/Test-driven_development
-- Utility-first CSS: https://tailwindcss.com/docs/utility-first
-- Reactive Programming: https://en.wikipedia.org/wiki/Reactive_programming
-
+- SMACSS: https://smacss.com/
 # Libraries
 
-- Redux: https://redux.js.org/
-- Redux Toolkit: https://redux-toolkit.js.org/
-- Redux Observable: https://redux-observable.js.org/
-- RxJS: https://rxjs.dev/
 - Storybook: https://storybook.js.org/
 - Cypress: https://www.cypress.io/
-- Tailwind CSS: https://tailwindcss.com/
 - React Testing Library: https://testing-library.com/docs/react-testing-library/intro/
-- Husky: https://typicode.github.io/husky/#/
   
 # UI Components Breakdown
 By following the [Atomic design Methodology]( https://bradfrost.com/blog/post/atomic-web-design/), we can break down the UI components into 5 categories: Atoms, Molecules, Organisms, Templates and Pages.
@@ -112,12 +104,11 @@ By following the [Atomic design Methodology]( https://bradfrost.com/blog/post/at
 
 # State Management
 
-The state management is implemented using Redux and Redux Observable, the state is divided into 3 slices:
+The state is divided into 3:
 - Players: Contains the users stats.
 - Games: Contains the game data.
 - Logger: Contains the log of the game.
 
-The main reason to use Redux is to have a single source of truth, and the main reason to use Redux Observable is to handle the side effects of the application in a reactive way.
 
 ![image](./docs/state-flow-chart.drawio.svg)
 
@@ -146,8 +137,8 @@ Using Storybook to develop UI components in isolation and document them.
 
 ### Ticket 1: Project Setup
 <b>Backlog:</b> Review project requirements and determine the necessary libraries and methodologies.
-<b>To Do:</b> Set up the project environment with Redux, Redux Toolkit, Redux Observable, RxJS, Storybook, Cypress, Tailwind CSS, React ,Testing Library, and Husky.
-<b>In Progress:</b> Configure ESLint, StyleLint, and Prettier for consistent code formatting. Use Husky for pre-commit hooks.
+<b>To Do:</b> Set up the project environment with CRA.
+<b>In Progress:</b> Configure ESLint, StyleLint, and Prettier for consistent code formatting and Cypress/jest for the test environment.
 <b>Testing:</b> Ensure all dependencies are installed and correctly configured.
 <b>Done:</b> When the development environment is fully set up and functional.
 
@@ -191,24 +182,24 @@ Using Storybook to develop UI components in isolation and document them.
 ### Ticket 6: Create Pages
 <b>Backlog:</b> Define the business logic and state handling of the page.
 <b>To Do:</b> Develop the RockPaperScissorsBetPage component.
-<b>In Progress:</b> Integrate Redux and Redux Observable to manage state and side effects.
+<b>In Progress:</b> Integrate Context to manage state and side effects.
 <b>Testing:</b> Test the page with React Testing Library and Cypress for end-to-end testing.
 <b>Done:</b> When the page component is fully functional and tested.
 
 <b>Status</b>: To Do
 
-### Ticket 7: Implement Redux Slices
+### Ticket 7: Implement State Slices
 <b>Backlog:</b> Understand the required slices for state management.
 <b>To Do:</b> Develop Players, Games, and Logger slices.
 <b>In Progress:</b> Connect slices to components and test their behavior.
-<b>Testing:</b> Test each slice and its integration with Redux and Redux Observable.
+<b>Testing:</b> Test each slice and its integration with Context.
 <b>Done:</b> When all slices are implemented, tested, and functioning correctly.
 
 <b>Status</b>: Backlog
 
-### Ticket 8: Style Components with Tailwind CSS
-<b>Backlog:</b> Review the design requirements and understand how to apply styles with Tailwind CSS.
-<b>To Do:</b> Apply styles to all components using Tailwind CSS.
+### Ticket 8: Style Components
+<b>Backlog:</b> Review the design requirements and understand how to apply styles with  CSS.
+<b>To Do:</b> Apply styles to all components using CSS.
 <b>In Progress:</b> Test each component to ensure its appearance matches the design requirements.
 <b>Testing:</b> Review all components and verify their appearance with the provided mockups.
 <b>Done:</b> When all components are styled correctly and match the provided mockups.
