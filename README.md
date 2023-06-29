@@ -38,6 +38,8 @@ This project is a web application that allows the user to bet on a game of rock 
     - [`yarn build`](#yarn-build)
     - [`yarn eject`](#yarn-eject)
     - [`yarn commit`](#yarn-commit)
+    - [`yarn format`](#yarn-format)
+    - [`yarn lint`](#yarn-lint)
 # Methodologies
 
 - Atomic Design: https://bradfrost.com/blog/post/atomic-web-design/
@@ -267,3 +269,11 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 ### `yarn commit`
 
 Runs the [commitizen CLI](https://github.com/commitizen/cz-cli) to help you write conventional commit messages.
+
+### `yarn format`
+
+Runs [Prettier](https://prettier.io/) to format your code.
+
+### `yarn lint`
+
+Runs [ESLint](https://eslint.org/) to check your code for errors and warnings.
