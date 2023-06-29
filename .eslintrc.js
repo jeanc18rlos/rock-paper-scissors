@@ -4,9 +4,11 @@ module.exports = {
       'airbnb/hooks',
       'plugin:@typescript-eslint/recommended',
       'plugin:jest/recommended',
-      'plugin:prettier/recommended'
+      'plugin:prettier/recommended',
+      "plugin:import/recommended",
+      
     ],
-    plugins: ['react', '@typescript-eslint', 'jest'],
+    plugins: ['react', '@typescript-eslint', 'jest', 'import', 'prettier', 'jest-dom',"jsx-a11y"],
     env: {
       browser: true,
       es6: true,
