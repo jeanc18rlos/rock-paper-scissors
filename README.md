@@ -37,6 +37,7 @@ This project is a web application that allows the user to bet on a game of rock 
     - [`yarn test`](#yarn-test)
     - [`yarn build`](#yarn-build)
     - [`yarn eject`](#yarn-eject)
+    - [`yarn commit`](#yarn-commit)
 # Methodologies
 
 - Atomic Design: https://bradfrost.com/blog/post/atomic-web-design/
@@ -263,3 +264,6 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
+### `yarn commit`
+
+Runs the [commitizen CLI](https://github.com/commitizen/cz-cli) to help you write conventional commit messages.
