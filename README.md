@@ -19,7 +19,6 @@ This project is a web application that allows the user to bet on a game of rock 
 - [Code Quality](#code-quality)
   - [Test Driven Development](#test-driven-development)
   - [Linting](#linting)
-  - [Storybook](#storybook)
   - [Conventions](#conventions)
 - [Tickets Breakdown](#tickets-breakdown)
     - [Ticket 1: Project Setup](#ticket-1-project-setup)
@@ -46,8 +45,6 @@ This project is a web application that allows the user to bet on a game of rock 
 - Test Driven Development: https://en.wikipedia.org/wiki/Test-driven_development
 - SMACSS: https://smacss.com/
 # Libraries
-
-- Storybook: https://storybook.js.org/
 - Cypress: https://www.cypress.io/
 - React Testing Library: https://testing-library.com/docs/react-testing-library/intro/
   
@@ -123,9 +120,6 @@ Using Jest and React Testing Library for unit testing and Cypress for end to end
 
 Using ESLint, StyleLint and Prettier with Husky to enforce code quality and consistency.
 
-## Storybook
-
-Using Storybook to develop UI components in isolation and document them.
 
 ## Conventions
 
@@ -146,27 +140,27 @@ Using Storybook to develop UI components in isolation and document them.
 
 ### Ticket 2: Create Atoms
 <b>Backlog:</b> Review the Atomic Design Methodology and understand the required atomic components.
-<b>To Do:</b> Develop Button, Input, and Label components, including their stories in Storybook.
+<b>To Do:</b> Develop Button, Input, and Label components, including their stories.
 <b>In Progress:</b> Test each component using React Testing Library.
-<b>Testing:</b> Verify each component's appearance and functionality in isolation and in Storybook.
-<b>Done:</b> When all atomic components are developed, tested, and documented in Storybook.
+<b>Testing:</b> Verify each component's appearance and functionality in isolation
+<b>Done:</b> When all atomic components are developed, tested, and documented
 
 <b>Status</b>: To Do
 
 ### Ticket 3: Create Molecules
 <b>Backlog:</b> Identify required molecules based on design requirements.
-<b>To Do:</b> Develop Form and Card components, including their stories in Storybook.
+<b>To Do:</b> Develop Form and Card components, including their stories
 <b>In Progress:</b> Test each component using React Testing Library.
-<b>Testing:</b> Verify each component's appearance and functionality in isolation and in Storybook.
-<b>Done:</b> When all molecular components are developed, tested, and documented in Storybook.
+<b>Testing:</b> Verify each component's appearance and functionality in isolation
+<b>Done:</b> When all molecular components are developed, tested, and documented
 
 <b>Status</b>: To Do
 ### Ticket 4: Create Organisms
 <b>Backlog:</b> Understand how atoms and molecules form more complex structures.
-<b>To Do:</b> Develop Header, BettingPosition, Stats, BettingForm, and BettingLogger components, including their stories in Storybook.
+<b>To Do:</b> Develop Header, BettingPosition, Stats, BettingForm, and BettingLogger components, including their stories
 <b>In Progress:</b> Test each component using React Testing Library.
-<b>Testing:</b> Verify each component's appearance and functionality in isolation and in Storybook.
-<b>Done:</b> When all organism components are developed, tested, and documented in Storybook.
+<b>Testing:</b> Verify each component's appearance and functionality in isolation
+<b>Done:</b> When all organism components are developed, tested, and documented
 
 <b>Status</b>: To Do
 
@@ -174,8 +168,8 @@ Using Storybook to develop UI components in isolation and document them.
 <b>Backlog:</b> Define the layout and composition of the page.
 <b>To Do:</b> Develop the BetPageTemplate component.
 <b>In Progress:</b> Test the template using React Testing Library.
-<b>Testing:</b> Verify the template's appearance and functionality in isolation and in Storybook.
-<b>Done:</b> When the BetPageTemplate is developed, tested, and documented in Storybook.
+<b>Testing:</b> Verify the template's appearance and functionality in isolation
+<b>Done:</b> When the BetPageTemplate is developed, tested, and documented
 
 <b>Status</b>: To Do
 
