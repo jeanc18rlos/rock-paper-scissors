@@ -1,0 +1,35 @@
+:root {
+    /* Global Text Color */
+    --color-body-text: var(--color-neutral-gray-93);
+    --color-body-bg: var(--color-neutral-black-2);
+    --color-text-highlight: var(--color-neutral-gray-93);
+    --color-text-highlight-bg: var(--color-neutral-gray-13);
+    --color-body-background-light: var(--color-neutral-gray-70);
+    /* Links */
+    --color-links: var(--color-neutral-gray-73);
+    --color-links-hover: var(--color-brand-gold);
+    --color-links-active: var(--color-neutral-gray-93);
+    --color-links-visited: var(--color-neutral-gray-93);
+
+    /* Buttons */
+    --color-btn-primary: var(--color-neutral-white);
+    --color-btn-primary-bg: var(--color-neutral-gray-93);
+    --color-btn-primary-bg-hover: var(--color-neutral-gray-50);
+    --color-btn-primary-border: var(--color-brand-gold);
+    --color-btn-secondary: var(--color-neutral-gray-93);
+    --color-btn-secondary-bg: var(--color-neutral-white);
+    --color-btn-secondary-bg-hover: var(--color-neutral-gray-07);
+    --color-btn-secondary-border: var(--color-neutral-gray-93);
+    --color-btn-disabled: var(--color-neutral-gray-50);
+    --color-btn-disabled-bg: var(--color-neutral-gray-07);
+
+    /* Forms */
+    --color-form: var(--color-neutral-gray-93);
+    --color-form-bg: var(--color-neutral-white);
+    --color-form-border: var(--color-neutral-gray-73);
+    --color-form-border-focus: var(--color-neutral-gray-93);
+    --color-form-border-error: var(--color-utility-error);
+    --color-form-label: var(--color-neutral-gray-93);
+    --color-form-info: var(--color-neutral-gray-73);
+    --color-form-placeholder: var(--color-neutral-gray-50);
+}
