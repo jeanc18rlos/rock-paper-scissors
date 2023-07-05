@@ -1,11 +1,7 @@
 {
   "compilerOptions": {
     "target": "es5",
-    "lib": [
-      "dom",
-      "dom.iterable",
-      "esnext"
-    ],
+    "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
     "skipLibCheck": true,
     "esModuleInterop": true,
@@ -18,9 +14,21 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
-    "jsx": "react-jsx"
+    "jsx": "react-jsx",
   },
   "include": [
-    "src"
-  ]
+    "src/**/*",
+    "__mocks__/**/**/*",
+    "jest.config.ts",
+    "craco.config.js",
+    "cypress.config.ts",
+    "tsconfig.paths.json"
+  ],
+  "resolve": {
+    "extensions": [".js", ".json", ".ts", ".tsx"]
+  },
+  "types": ["@types/jest"],
+  "exclude": ["node_modules", "build", "scripts", "craco.config.js"],
+  "rootDir": ".",
+  "extends": "./tsconfig.paths.json"
 }
