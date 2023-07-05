@@ -1,0 +1,14 @@
+.bet-form {
+  &__bet-positions {
+    display: grid;
+    gap: 10px;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fit, minmax(10em, 11em));
+  }
+  &__button-container {
+    display: flex;
+    margin: auto;
+    margin-top: 5em;
+    width: fit-content;
+  }
+}

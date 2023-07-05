@@ -1,0 +1,32 @@
+/*------------------------------------*\
+    #HEADER
+\*------------------------------------*/
+
+.header {
+  position: sticky;
+  top: 0;
+  margin-bottom: 2rem;
+  background: var(--color-neutral-gray-93);
+  z-index: 999;
+  width: 100%;
+}
+
+.header__inner {
+  @media all and (min-width: var(--bp-small-2)) {
+    display: flex;
+    align-items: center;
+  }
+}
+
+.header__nav-container {
+  @media all and (min-width: var(--bp-xl)) {
+    display: block;
+    margin-left: auto;
+  }
+
+  .header--vertical & {
+    @media all and (min-width: var(--bp-xl)) {
+      margin-left: 0;
+    }
+  }
+}

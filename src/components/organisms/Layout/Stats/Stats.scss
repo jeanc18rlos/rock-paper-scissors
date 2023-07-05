@@ -1,0 +1,10 @@
+.player-stats {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  font-weight: 600;
+  color: var(--color-btn-primary);
+  b {
+    color: var(--color-brand-gold);
+  }
+}
