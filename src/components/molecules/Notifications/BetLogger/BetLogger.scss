@@ -1,0 +1,45 @@
+.bet-logger {
+  display: flex;
+  flex-direction: column;
+  min-height: 18em;
+  justify-content: flex-end;
+  display: flex;
+  align-items: center;
+  padding: 2em;
+  &__win-amount{
+    color: var(--color-brand-gold);
+    line-height: 1;
+    font-size: 1.5em;
+    font-weight: 500;
+    letter-spacing: -1.5px;
+    text-transform: uppercase;
+    span{
+      color: var(--color-neutral-white);
+    }
+  }
+  &__won {
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 3em;
+    margin-bottom: 1rem;
+  }
+  &__pick-positions {
+    color: var(--color-brand-gold);
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  &__versus {
+    color: var(--color-neutral-white);
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 3em;
+    margin: auto;
+    max-width: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    .separator {
+      color: var(--color-brand-gold);
+    }
+  }
+}
