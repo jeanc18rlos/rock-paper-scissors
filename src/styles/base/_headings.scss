@@ -1,0 +1,48 @@
+/*------------------------------------*\
+    #HEADINGS
+\*------------------------------------*/
+
+h1, h2, h3, h4 {
+	font-family: var(--font-family-secondary);
+	text-transform: uppercase;
+}
+
+/**
+ * Heading 1 base styles
+ */
+h1 {
+    font-size: var(--font-size-xl);
+    font-weight: normal;
+    line-height: 1.2;
+
+    @media all and (min-width: var(--bp-med)) {
+        font-size: var(--font-size-xxl);
+    }
+}
+
+/**
+ * Heading 2 base styles
+ */
+h2 {
+    font-size: var(--font-size-med-2);
+    font-weight: normal;
+    line-height: 1.2;
+}
+
+/**
+ * Heading 3 base styles
+ */
+h3 {
+    font-size: var(--font-size-med-2);
+    font-weight: normal;
+    line-height: 1.2;
+}
+
+/**
+ * Heading 4 base styles
+ */
+h4 {
+    font-size: var(--font-size-med);
+    font-weight: normal;
+    line-height: 1.2;
+}

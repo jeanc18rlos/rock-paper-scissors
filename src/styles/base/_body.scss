@@ -1,0 +1,29 @@
+/*------------------------------------*\
+    #BODY
+\*------------------------------------*/
+
+/**
+ * HTML base styles
+ * 1) Set the html element's height to at least 100% of the viewport.
+ *    This is used to achieve a sticky footer
+ */
+ html {
+	min-height: 100vh; /* 1 */
+}
+
+/**
+ * Body base styles
+ * 1) Set the body element's height to at least 100% of the viewport.
+ *    This is used to achieve a sticky footer
+ */
+body {
+	min-height: 100vh; /* 1 */
+	font-family: var(--font-family-primary);
+	font-size: var(--font-size-med);
+	line-height: 1.6;
+	-webkit-text-size-adjust: 100%;
+	background: linear-gradient(180deg, rgba(29,29,29,1) 29%, rgba(71,71,71,1) 98%);
+
+	background: linear-gradient(0deg, var(--color-body-bg), var(--color-body-background-light));
+	color: var(--color-body-text);
+}
